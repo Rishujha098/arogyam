@@ -1,0 +1,966 @@
+[
+  {
+    "id": 1,
+    "query": "Diabetes symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Diabetes"}],
+    "answer": "Common symptoms of Diabetes include frequent urination, excessive thirst, fatigue.",
+    "language": "en"
+  },
+  {
+    "id": 2,
+    "query": "मधुमेह ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "मधुमेह"}],
+    "answer": "मधुमेह के सामान्य लक्षण हैं बार-बार पेशाब आना, ज्यादा प्यास लगना, और थकान।",
+    "language": "hi"
+  },
+  {
+    "id": 3,
+    "query": "Dengue ke symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Dengue"}],
+    "answer": "Dengue ke symptoms hote hain high fever, severe headache, joint and muscle pain, skin rash.",
+    "language": "hi-en"
+  },
+  {
+    "id": 4,
+    "query": "Malaria symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Malaria"}],
+    "answer": "Malaria symptoms include fever, chills, sweating, headache, nausea and vomiting.",
+    "language": "en"
+  },
+  {
+    "id": 5,
+    "query": "Typhoid ke lakshan",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Typhoid"}],
+    "answer": "Typhoid ke symptoms hain sustained fever, weakness, stomach pain, headache, aur loss of appetite.",
+    "language": "hi-en"
+  },
+  {
+    "id": 6,
+    "query": "Common cold symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Common Cold"}],
+    "answer": "Common cold symptoms include runny nose, sneezing, sore throat, mild body ache.",
+    "language": "en"
+  },
+  {
+    "id": 7,
+    "query": "Asthma ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Asthma"}],
+    "answer": "Asthma ke symptoms hote hain difficulty in breathing, wheezing, coughing especially at night.",
+    "language": "hi-en"
+  },
+  {
+    "id": 8,
+    "query": "Heart attack symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Heart Attack"}],
+    "answer": "Heart attack symptoms include chest pain, shortness of breath, sweating, nausea, pain in left arm.",
+    "language": "en"
+  },
+  {
+    "id": 9,
+    "query": "TB ke lakshan",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Tuberculosis"}],
+    "answer": "TB ke symptoms hain persistent cough for more than 2 weeks, weight loss, fever, night sweats.",
+    "language": "hi-en"
+  },
+  {
+    "id": 10,
+    "query": "COVID-19 symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "COVID-19"}],
+    "answer": "COVID-19 symptoms include fever, cough, loss of taste or smell, difficulty breathing, body ache.",
+    "language": "en"
+  },
+  {
+    "id": 11,
+    "query": "Cholera symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Cholera"}],
+    "answer": "Cholera ke symptoms hote hain watery diarrhea, vomiting, dehydration, muscle cramps.",
+    "language": "hi-en"
+  },
+  {
+    "id": 12,
+    "query": "Jaundice ke lakshan kya h",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Jaundice"}],
+    "answer": "Jaundice ke symptoms hote hain yellowing of eyes and skin, fatigue, abdominal pain, dark urine.",
+    "language": "hi-en"
+  },
+  {
+    "id": 13,
+    "query": "Pneumonia symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Pneumonia"}],
+    "answer": "Pneumonia symptoms include fever, cough with phlegm, chest pain, shortness of breath.",
+    "language": "en"
+  },
+  {
+    "id": 14,
+    "query": "Migraine ke symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Migraine"}],
+    "answer": "Migraine ke symptoms hote hain severe headache, nausea, sensitivity to light and sound.",
+    "language": "hi-en"
+  },
+  {
+    "id": 15,
+    "query": "Hypertension ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hypertension"}],
+    "answer": "Hypertension ke symptoms hamesha clear nahi hote, lekin headache, dizziness aur blurred vision ho sakte hain.",
+    "language": "hi-en"
+  },
+  {
+    "id": 16,
+    "query": "Anemia symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Anemia"}],
+    "answer": "Anemia symptoms include fatigue, pale skin, weakness, shortness of breath.",
+    "language": "en"
+  },
+  {
+    "id": 17,
+    "query": "Cancer ke early symptoms kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Cancer"}],
+    "answer": "Cancer ke early symptoms hote hain unexplained weight loss, fatigue, persistent cough, abnormal lumps.",
+    "language": "hi-en"
+  },
+  {
+    "id": 18,
+    "query": "Hepatitis symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hepatitis"}],
+    "answer": "Hepatitis symptoms include fatigue, nausea, abdominal pain, jaundice, dark urine.",
+    "language": "en"
+  },
+  {
+    "id": 19,
+    "query": "Skin allergy ke lakshan",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Skin Allergy"}],
+    "answer": "Skin allergy ke symptoms hote hain itching, redness, rash, swelling.",
+    "language": "hi-en"
+  },
+  {
+    "id": 20,
+    "query": "Kidney stone symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Kidney Stone"}],
+    "answer": "Kidney stone symptoms include severe back pain, pain during urination, blood in urine, nausea.",
+    "language": "en"
+  },
+  {
+    "id": 21,
+    "query": "Arthritis ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Arthritis"}],
+    "answer": "Arthritis ke symptoms hote hain joint pain, stiffness, swelling, aur movement mein problem.",
+    "language": "hi-en"
+  },
+  {
+    "id": 22,
+    "query": "Stroke symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Stroke"}],
+    "answer": "Stroke symptoms include sudden weakness, difficulty speaking, loss of balance, blurred vision.",
+    "language": "en"
+  },
+  {
+    "id": 23,
+    "query": "Depression ke symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Depression"}],
+    "answer": "Depression ke symptoms hote hain sadness, loss of interest, fatigue, sleep disturbances.",
+    "language": "hi-en"
+  },
+  {
+    "id": 24,
+    "query": "Anxiety disorder symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Anxiety Disorder"}],
+    "answer": "Anxiety symptoms include excessive worry, restlessness, increased heart rate, sweating.",
+    "language": "en"
+  },
+  {
+    "id": 25,
+    "query": "Epilepsy ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Epilepsy"}],
+    "answer": "Epilepsy ke symptoms hote hain seizures, sudden shaking, loss of awareness.",
+    "language": "hi-en"
+  },
+  {
+    "id": 26,
+    "query": "Appendicitis symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Appendicitis"}],
+    "answer": "Appendicitis symptoms include severe abdominal pain (right side), nausea, vomiting, fever.",
+    "language": "en"
+  },
+  {
+    "id": 27,
+    "query": "Polio ke symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Polio"}],
+    "answer": "Polio ke symptoms hote hain fever, fatigue, headache, vomiting, paralysis in severe cases.",
+    "language": "hi-en"
+  },
+  {
+    "id": 28,
+    "query": "Obesity symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Obesity"}],
+    "answer": "Obesity ka main symptom hai excessive body fat, aur related issues jaise shortness of breath, fatigue.",
+    "language": "en"
+  },
+  {
+    "id": 29,
+    "query": "Allergy ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Allergy"}],
+    "answer": "Allergy ke symptoms hote hain sneezing, runny nose, itching, watery eyes, rash.",
+    "language": "hi-en"
+  },
+  {
+    "id": 30,
+    "query": "Parkinson’s disease symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Parkinson's Disease"}],
+    "answer": "Parkinson’s ke symptoms hote hain tremors, stiffness, slow movement, balance problems.",
+    "language": "en"
+  },
+  {
+    "id": 31,
+    "query": "Chickenpox ke lakshan",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Chickenpox"}],
+    "answer": "Chickenpox ke symptoms hote hain itchy skin rash, red spots, fever, tiredness.",
+    "language": "hi-en"
+  },
+  {
+    "id": 32,
+    "query": "Measles symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Measles"}],
+    "answer": "Measles symptoms include fever, cough, runny nose, inflamed eyes, red rash all over body.",
+    "language": "en"
+  },
+  {
+    "id": 33,
+    "query": "HIV ke early symptoms kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "HIV"}],
+    "answer": "HIV ke early symptoms hote hain fever, sore throat, fatigue, swollen lymph nodes.",
+    "language": "hi-en"
+  },
+  {
+    "id": 34,
+    "query": "Alzheimer’s disease symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Alzheimer’s Disease"}],
+    "answer": "Alzheimer’s symptoms include memory loss, confusion, difficulty completing tasks, personality changes.",
+    "language": "en"
+  },
+  {
+    "id": 35,
+    "query": "Gastric ulcer ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Gastric Ulcer"}],
+    "answer": "Gastric ulcer ke symptoms hote hain stomach pain, bloating, nausea, vomiting.",
+    "language": "hi-en"
+  },
+  {
+    "id": 36,
+    "query": "Insomnia symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Insomnia"}],
+    "answer": "Insomnia symptoms include difficulty falling asleep, waking up frequently, daytime fatigue.",
+    "language": "en"
+  },
+  {
+    "id": 37,
+    "query": "Leprosy ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Leprosy"}],
+    "answer": "Leprosy ke symptoms hote hain skin patches, numbness, weakness in hands and feet.",
+    "language": "hi-en"
+  },
+  {
+    "id": 38,
+    "query": "Scabies symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Scabies"}],
+    "answer": "Scabies symptoms include intense itching, small blisters, rash especially at night.",
+    "language": "en"
+  },
+  {
+    "id": 39,
+    "query": "Conjunctivitis ke lakshan",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Conjunctivitis"}],
+    "answer": "Conjunctivitis ke symptoms hote hain redness in eyes, itching, watery discharge, irritation.",
+    "language": "hi-en"
+  },
+  {
+    "id": 40,
+    "query": "Sinus infection symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Sinus Infection"}],
+    "answer": "Sinus infection symptoms include headache, facial pain, nasal congestion, cough.",
+    "language": "en"
+  }
+,
+  {
+    "id": 41,
+    "query": "Tuberculosis symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Tuberculosis"}],
+    "answer": "Tuberculosis symptoms include persistent cough, chest pain, fever, night sweats, weight loss.",
+    "language": "en"
+  },
+  {
+    "id": 42,
+    "query": "TB ke lakshan kya hote hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "TB"}],
+    "answer": "टीबी के लक्षण हैं लगातार खांसी, छाती में दर्द, रात को पसीना आना और वजन घटना।",
+    "language": "hi"
+  },
+  {
+    "id": 43,
+    "query": "Migraine symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Migraine"}],
+    "answer": "Migraine symptoms include throbbing headache, nausea, sensitivity to light and sound.",
+    "language": "en"
+  },
+  {
+    "id": 44,
+    "query": "Thyroid ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Thyroid Disorder"}],
+    "answer": "Thyroid ke symptoms hote hain weight change, fatigue, hair loss, mood swings.",
+    "language": "hi-en"
+  },
+  {
+    "id": 45,
+    "query": "Asthma symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Asthma"}],
+    "answer": "Asthma symptoms include shortness of breath, chest tightness, wheezing, coughing.",
+    "language": "en"
+  },
+  {
+    "id": 46,
+    "query": "Jaundice ke symptoms kya hote hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Jaundice"}],
+    "answer": "Jaundice ke symptoms hote hain skin aur eyes pe yellow color, fatigue, loss of appetite.",
+    "language": "hi-en"
+  },
+  {
+    "id": 47,
+    "query": "COVID-19 symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "COVID-19"}],
+    "answer": "COVID-19 symptoms include fever, cough, loss of smell/taste, difficulty breathing.",
+    "language": "en"
+  },
+  {
+    "id": 48,
+    "query": "Corona ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Corona"}],
+    "answer": "कोरोना के लक्षण हैं बुखार, खांसी, स्वाद और गंध की कमी, सांस लेने में दिक्कत।",
+    "language": "hi"
+  },
+  {
+    "id": 49,
+    "query": "Hypertension symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hypertension"}],
+    "answer": "Hypertension ke symptoms me headache, dizziness, chest pain aur nosebleeds ho sakte hain.",
+    "language": "en"
+  },
+  {
+    "id": 50,
+    "query": "BP badhne ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "High BP"}],
+    "answer": "BP ke lakshan hote hain sir dard, chakkar aana, thakan aur kabhi-kabhi chest pain.",
+    "language": "hi-en"
+  },
+  {
+    "id": 51,
+    "query": "Cholera symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Cholera"}],
+    "answer": "Cholera symptoms include watery diarrhea, vomiting, muscle cramps, dehydration.",
+    "language": "en"
+  },
+  {
+    "id": 52,
+    "query": "Cholera ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Cholera"}],
+    "answer": "कॉलरा के लक्षण हैं पानी जैसा दस्त, उल्टी, डिहाइड्रेशन और कमजोरी।",
+    "language": "hi"
+  },
+  {
+    "id": 53,
+    "query": "Typhoid symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Typhoid"}],
+    "answer": "Typhoid symptoms include prolonged fever, abdominal pain, weakness, loss of appetite.",
+    "language": "en"
+  },
+  {
+    "id": 54,
+    "query": "Typhoid ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Typhoid"}],
+    "answer": "टाइफाइड के लक्षण हैं लगातार बुखार, पेट दर्द, कमजोरी और भूख में कमी।",
+    "language": "hi"
+  },
+  {
+    "id": 55,
+    "query": "Malaria symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Malaria"}],
+    "answer": "Malaria symptoms include high fever, chills, sweating, headache, nausea.",
+    "language": "en"
+  },
+  {
+    "id": 56,
+    "query": "Malaria ke lakshan kya hote hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Malaria"}],
+    "answer": "मलेरिया के लक्षण हैं तेज बुखार, कंपकंपी, पसीना आना और सिरदर्द।",
+    "language": "hi"
+  },
+  {
+    "id": 57,
+    "query": "Hepatitis B symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hepatitis B"}],
+    "answer": "Hepatitis B symptoms include fatigue, nausea, abdominal pain, yellowing of skin and eyes.",
+    "language": "en"
+  },
+  {
+    "id": 58,
+    "query": "Hepatitis ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hepatitis"}],
+    "answer": "हेपेटाइटिस के लक्षण हैं थकान, पेट दर्द, भूख न लगना और पीलिया।",
+    "language": "hi"
+  },
+  {
+    "id": 59,
+    "query": "Pneumonia symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Pneumonia"}],
+    "answer": "Pneumonia symptoms include cough with phlegm, fever, chills, and difficulty breathing.",
+    "language": "en"
+  },
+  {
+    "id": 60,
+    "query": "Pneumonia ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Pneumonia"}],
+    "answer": "निमोनिया के लक्षण हैं खांसी, बुखार, ठंड लगना और सांस लेने में दिक्कत।",
+    "language": "hi"
+  }
+,
+  {
+    "id": 61,
+    "query": "Kidney stone symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Kidney Stone"}],
+    "answer": "Kidney stone symptoms include severe back pain, blood in urine, nausea, frequent urination.",
+    "language": "en"
+  },
+  {
+    "id": 62,
+    "query": "Kidney stone ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Kidney Stone"}],
+    "answer": "किडनी स्टोन के लक्षण हैं पीठ या कमर में तेज दर्द, पेशाब में खून आना और बार-बार पेशाब आना।",
+    "language": "hi"
+  },
+  {
+    "id": 63,
+    "query": "Urinary tract infection symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "UTI"}],
+    "answer": "UTI symptoms include burning sensation during urination, frequent urge, cloudy urine.",
+    "language": "en"
+  },
+  {
+    "id": 64,
+    "query": "UTI ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "UTI"}],
+    "answer": "यूटीआई के लक्षण हैं पेशाब करते समय जलन, बार-बार पेशाब आना और पेशाब का गंदला होना।",
+    "language": "hi"
+  },
+  {
+    "id": 65,
+    "query": "Anemia symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Anemia"}],
+    "answer": "Anemia symptoms include fatigue, pale skin, dizziness, shortness of breath.",
+    "language": "en"
+  },
+  {
+    "id": 66,
+    "query": "Khoon ki kami ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Anemia"}],
+    "answer": "खून की कमी के लक्षण हैं थकान, चक्कर आना, पीली त्वचा और सांस फूलना।",
+    "language": "hi"
+  },
+  {
+    "id": 67,
+    "query": "Diphtheria symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Diphtheria"}],
+    "answer": "Diphtheria symptoms include sore throat, difficulty breathing, swollen glands, weakness.",
+    "language": "en"
+  },
+  {
+    "id": 68,
+    "query": "Diphtheria ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Diphtheria"}],
+    "answer": "डिप्थीरिया के लक्षण हैं गले में खराश, सांस लेने में कठिनाई, और थकान।",
+    "language": "hi"
+  },
+  {
+    "id": 69,
+    "query": "Whooping cough symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Whooping Cough"}],
+    "answer": "Whooping cough symptoms include severe coughing fits, whooping sound, vomiting after cough.",
+    "language": "en"
+  },
+  {
+    "id": 70,
+    "query": "Kali khansi ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Whooping Cough"}],
+    "answer": "काली खांसी के लक्षण हैं लगातार तेज खांसी, खांसते समय आवाज आना, और उल्टी।",
+    "language": "hi"
+  },
+  {
+    "id": 71,
+    "query": "Meningitis symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Meningitis"}],
+    "answer": "Meningitis symptoms include headache, stiff neck, fever, sensitivity to light.",
+    "language": "en"
+  },
+  {
+    "id": 72,
+    "query": "Meningitis ke lakshan kya hote hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Meningitis"}],
+    "answer": "मेनिन्जाइटिस के लक्षण हैं सिरदर्द, गर्दन अकड़ना, बुखार और रोशनी से तकलीफ।",
+    "language": "hi"
+  },
+  {
+    "id": 73,
+    "query": "Rabies symptoms in humans?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Rabies"}],
+    "answer": "Rabies symptoms include fever, tingling at bite site, fear of water, confusion, paralysis.",
+    "language": "en"
+  },
+  {
+    "id": 74,
+    "query": "Rabies ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Rabies"}],
+    "answer": "रेबीज़ के लक्षण हैं बुखार, काटे हुए जगह पर सनसनी, पानी से डरना और लकवा।",
+    "language": "hi"
+  },
+  {
+    "id": 75,
+    "query": "Swine flu symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Swine Flu"}],
+    "answer": "Swine flu symptoms include fever, cough, sore throat, body aches, chills, fatigue.",
+    "language": "en"
+  },
+  {
+    "id": 76,
+    "query": "Swine flu ke lakshan kya hote hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Swine Flu"}],
+    "answer": "स्वाइन फ्लू के लक्षण हैं बुखार, खांसी, गले में खराश, बदन दर्द और थकान।",
+    "language": "hi"
+  },
+  {
+    "id": 77,
+    "query": "Ringworm symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Ringworm"}],
+    "answer": "Ringworm symptoms include red circular rash, itching, scaling of skin.",
+    "language": "en"
+  },
+  {
+    "id": 78,
+    "query": "Daad ke lakshan kya hote hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Ringworm"}],
+    "answer": "दाद के लक्षण हैं गोल लाल चकत्ते, खुजली और त्वचा का उतरना।",
+    "language": "hi"
+  },
+  {
+    "id": 79,
+    "query": "Ebola virus symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Ebola"}],
+    "answer": "Ebola symptoms include high fever, muscle pain, vomiting, diarrhea, bleeding.",
+    "language": "en"
+  },
+  {
+    "id": 80,
+    "query": "Ebola ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Ebola"}],
+    "answer": "इबोला के लक्षण हैं तेज बुखार, उल्टी, दस्त, शरीर में दर्द और खून आना।",
+    "language": "hi"
+  }
+,
+  {
+    "id": 81,
+    "query": "Polio symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Polio"}],
+    "answer": "Polio symptoms include fever, sore throat, headache, stiffness, and paralysis in severe cases.",
+    "language": "en"
+  },
+  {
+    "id": 82,
+    "query": "Polio ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Polio"}],
+    "answer": "पोलियो के लक्षण हैं बुखार, गले में खराश, सिरदर्द और गंभीर मामलों में लकवा।",
+    "language": "hi"
+  },
+  {
+    "id": 83,
+    "query": "Tuberculosis symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Tuberculosis"}],
+    "answer": "TB symptoms include prolonged cough, chest pain, coughing blood, weight loss, night sweats.",
+    "language": "en"
+  },
+  {
+    "id": 84,
+    "query": "TB ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Tuberculosis"}],
+    "answer": "टीबी के लक्षण हैं लंबे समय तक खांसी, सीने में दर्द, खून की खांसी, वजन कम होना और रात को पसीना।",
+    "language": "hi"
+  },
+  {
+    "id": 85,
+    "query": "Chickenpox symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Chickenpox"}],
+    "answer": "Chickenpox symptoms include itchy rash, red spots, fever, tiredness, loss of appetite.",
+    "language": "en"
+  },
+  {
+    "id": 86,
+    "query": "Chickenpox ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Chickenpox"}],
+    "answer": "चिकनपॉक्स के लक्षण हैं खुजलीदार दाने, लाल चकत्ते, बुखार और थकान।",
+    "language": "hi"
+  },
+  {
+    "id": 87,
+    "query": "Leprosy symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Leprosy"}],
+    "answer": "Leprosy symptoms include light-colored skin patches, numbness, muscle weakness.",
+    "language": "en"
+  },
+  {
+    "id": 88,
+    "query": "Kusht rog ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Leprosy"}],
+    "answer": "कुष्ठ रोग के लक्षण हैं हल्के रंग के धब्बे, सुन्नपन और मांसपेशियों की कमजोरी।",
+    "language": "hi"
+  },
+  {
+    "id": 89,
+    "query": "Hepatitis B symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hepatitis B"}],
+    "answer": "Hepatitis B symptoms include jaundice, abdominal pain, dark urine, joint pain, fatigue.",
+    "language": "en"
+  },
+  {
+    "id": 90,
+    "query": "Hepatitis B ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hepatitis B"}],
+    "answer": "हेपेटाइटिस बी के लक्षण हैं पीलिया, पेट में दर्द, गहरा मूत्र, जोड़ो में दर्द और थकान।",
+    "language": "hi"
+  },
+  {
+    "id": 91,
+    "query": "Hepatitis C symptoms",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hepatitis C"}],
+    "answer": "Hepatitis C symptoms include loss of appetite, nausea, jaundice, abdominal pain.",
+    "language": "en"
+  },
+  {
+    "id": 92,
+    "query": "Hepatitis C ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hepatitis C"}],
+    "answer": "हेपेटाइटिस सी के लक्षण हैं भूख न लगना, उल्टी, पीलिया और पेट दर्द।",
+    "language": "hi"
+  },
+  {
+    "id": 93,
+    "query": "Zika virus symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Zika Virus"}],
+    "answer": "Zika virus symptoms include fever, rash, joint pain, red eyes, headache.",
+    "language": "en"
+  },
+  {
+    "id": 94,
+    "query": "Zika virus ke lakshan kya hote hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Zika Virus"}],
+    "answer": "ज़ीका वायरस के लक्षण हैं बुखार, लाल चकत्ते, जोड़ों में दर्द और आंखों की लालिमा।",
+    "language": "hi"
+  },
+  {
+    "id": 95,
+    "query": "Black fungus symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Black Fungus"}],
+    "answer": "Black fungus symptoms include facial swelling, black lesions, fever, chest pain, shortness of breath.",
+    "language": "en"
+  },
+  {
+    "id": 96,
+    "query": "Kala fungus ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Black Fungus"}],
+    "answer": "ब्लैक फंगस के लक्षण हैं चेहरे पर सूजन, काले धब्बे, बुखार और सांस लेने में कठिनाई।",
+    "language": "hi"
+  },
+  {
+    "id": 97,
+    "query": "Cholera symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Cholera"}],
+    "answer": "Cholera symptoms include watery diarrhea, dehydration, leg cramps, vomiting.",
+    "language": "en"
+  },
+  {
+    "id": 98,
+    "query": "Cholera ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Cholera"}],
+    "answer": "कॉलेरा के लक्षण हैं पानी जैसी दस्त, शरीर में पानी की कमी, और उल्टी।",
+    "language": "hi"
+  },
+  {
+    "id": 99,
+    "query": "Typhus symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Typhus"}],
+    "answer": "Typhus symptoms include high fever, chills, rash, body ache, confusion.",
+    "language": "en"
+  },
+  {
+    "id": 100,
+    "query": "Typhus ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Typhus"}],
+    "answer": "टाइफस के लक्षण हैं तेज बुखार, कंपकंपी, चकत्ते, शरीर में दर्द और भ्रम।",
+    "language": "hi"
+  }
+,
+  {
+    "id": 101,
+    "query": "Chickenpox symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Chickenpox"}],
+    "answer": "Chickenpox symptoms include itchy rash, red spots, fever, and tiredness.",
+    "language": "en"
+  },
+  {
+    "id": 102,
+    "query": "Chickenpox ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Chickenpox"}],
+    "answer": "चिकनपॉक्स के लक्षण हैं खुजली वाला दाने, लाल धब्बे, बुखार और थकान।",
+    "language": "hi"
+  },
+  {
+    "id": 103,
+    "query": "Malaria symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Malaria"}],
+    "answer": "Malaria symptoms include high fever, chills, sweating, headache, and vomiting.",
+    "language": "en"
+  },
+  {
+    "id": 104,
+    "query": "Malaria ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Malaria"}],
+    "answer": "मलेरिया के लक्षण हैं तेज बुखार, ठंड लगना, सिरदर्द और उल्टी।",
+    "language": "hi"
+  },
+  {
+    "id": 105,
+    "query": "COVID-19 symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "COVID-19"}],
+    "answer": "COVID-19 symptoms include fever, cough, loss of taste, difficulty breathing, fatigue.",
+    "language": "en"
+  },
+  {
+    "id": 106,
+    "query": "Corona ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "COVID-19"}],
+    "answer": "कोरोना के लक्षण हैं बुखार, खांसी, स्वाद न आना और सांस लेने में कठिनाई।",
+    "language": "hi"
+  },
+  {
+    "id": 107,
+    "query": "Typhoid symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Typhoid"}],
+    "answer": "Typhoid symptoms include prolonged fever, abdominal pain, headache, and weakness.",
+    "language": "en"
+  },
+  {
+    "id": 108,
+    "query": "Typhoid ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Typhoid"}],
+    "answer": "टाइफाइड के लक्षण हैं लगातार बुखार, पेट दर्द, सिरदर्द और कमजोरी।",
+    "language": "hi"
+  },
+  {
+    "id": 109,
+    "query": "Jaundice symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Jaundice"}],
+    "answer": "Jaundice symptoms include yellowing of skin and eyes, fatigue, abdominal pain.",
+    "language": "en"
+  },
+  {
+    "id": 110,
+    "query": "Jaundice ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Jaundice"}],
+    "answer": "पीलिया के लक्षण हैं आंखों और त्वचा का पीला पड़ना, थकान और पेट दर्द।",
+    "language": "hi"
+  },
+  {
+    "id": 111,
+    "query": "Pneumonia symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Pneumonia"}],
+    "answer": "Pneumonia symptoms include cough with phlegm, fever, chills, chest pain, difficulty breathing.",
+    "language": "en"
+  },
+  {
+    "id": 112,
+    "query": "Pneumonia ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Pneumonia"}],
+    "answer": "निमोनिया के लक्षण हैं बलगम वाली खांसी, बुखार, सीने में दर्द और सांस लेने में दिक्कत।",
+    "language": "hi"
+  },
+  {
+    "id": 113,
+    "query": "Hepatitis B symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hepatitis B"}],
+    "answer": "Hepatitis B symptoms include jaundice, dark urine, fatigue, abdominal pain.",
+    "language": "en"
+  },
+  {
+    "id": 114,
+    "query": "Hepatitis B ke lakshan?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Hepatitis B"}],
+    "answer": "हेपेटाइटिस बी के लक्षण हैं पीलिया, गाढ़ा पेशाब, थकान और पेट में दर्द।",
+    "language": "hi"
+  },
+  {
+    "id": 115,
+    "query": "Arthritis symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Arthritis"}],
+    "answer": "Arthritis symptoms include joint pain, stiffness, swelling, and reduced movement.",
+    "language": "en"
+  },
+  {
+    "id": 116,
+    "query": "Arthritis ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Arthritis"}],
+    "answer": "आर्थराइटिस के लक्षण हैं जोड़ों में दर्द, सूजन और हिलाने में कठिनाई।",
+    "language": "hi"
+  },
+  {
+    "id": 117,
+    "query": "Asthma symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Asthma"}],
+    "answer": "Asthma symptoms include wheezing, coughing, chest tightness, and shortness of breath.",
+    "language": "en"
+  },
+  {
+    "id": 118,
+    "query": "Asthma ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Asthma"}],
+    "answer": "अस्थमा के लक्षण हैं सांस फूलना, सीने में जकड़न और बार-बार खांसी।",
+    "language": "hi"
+  },
+  {
+    "id": 119,
+    "query": "Migraine symptoms?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Migraine"}],
+    "answer": "Migraine symptoms include severe headache, sensitivity to light and sound, nausea.",
+    "language": "en"
+  },
+  {
+    "id": 120,
+    "query": "Migraine ke lakshan kya hai?",
+    "intent": "symptoms",
+    "entities": [{"entity_name": "DISEASE", "value": "Migraine"}],
+    "answer": "माइग्रेन के लक्षण हैं तेज सिरदर्द, रोशनी और आवाज से तकलीफ, उल्टी।",
+    "language": "hi"
+  }
+]

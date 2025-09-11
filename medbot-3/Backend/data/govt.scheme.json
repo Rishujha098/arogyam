@@ -1,0 +1,95 @@
+[
+  {
+    "scheme_name_en": "Ayushman Bharat - PM-JAY",
+    "scheme_name_hi": "आयुष्मान भारत - पीएम-जेएवाई",
+    "scheme_name_hinglish": "Ayushman Bharat - PM-JAY",
+    "keywords": ["ayushman bharat", "pmjay", "health insurance", "5 lakh", "hospital"],
+    "purpose_en": "Provides a health insurance cover of ₹5 lakh per family for secondary and tertiary hospitalization.",
+    "purpose_hi": "माध्यमिक और तृतीयक अस्पताल में भर्ती के लिए प्रति परिवार ₹5 लाख का स्वास्थ्य बीमा कवर प्रदान करता है।",
+    "purpose_hinglish": "5 lakh ka health insurance cover deta hai har family ko hospital mein bharti hone ke liye.",
+    "eligibility_en": "Identified by the SECC 2011 database based on deprivation criteria.",
+    "eligibility_hi": "एसईसीसी 2011 डेटाबेस में वंचित मानदंडों के आधार पर पहचाने गए परिवार।",
+    "eligibility_hinglish": "SECC 2011 database ke hisab se jo families gareeb hain, unhein milta hai."
+  },
+  {
+    "scheme_name_en": "Pradhan Mantri Jan Aushadhi Pariyojana",
+    "scheme_name_hi": "प्रधानमंत्री जन औषधि परियोजना",
+    "scheme_name_hinglish": "Pradhan Mantri Jan Aushadhi Pariyojana",
+    "keywords": ["janaushadhi", "medicine", "dawai", "generic"],
+    "purpose_en": "Provides quality generic medicines at affordable prices through dedicated kendras.",
+    "purpose_hi": "समर्पित केंद्रों के माध्यम से सस्ती कीमतों पर गुणवत्ता वाली जेनेरिक दवाएं प्रदान करता है।",
+    "purpose_hinglish": "Sasti aur acchi generic dawai deta hai Jan Aushadhi kendra se."
+  },
+  {
+    "scheme_name_en": "National Health Mission (NHM)",
+    "scheme_name_hi": "राष्ट्रीय स्वास्थ्य मिशन",
+    "scheme_name_hinglish": "Rashtriya Swasthya Mission",
+    "keywords": ["nhm", "health mission", "gramin", "urban"],
+    "purpose_en": "A central mission for improving rural and urban health systems.",
+    "purpose_hi": "ग्रामीण और शहरी स्वास्थ्य प्रणालियों में सुधार के लिए एक केंद्रीय मिशन।",
+    "purpose_hinglish": "Gramin aur shehri health systems ko behtar banane ka mission."
+  },
+  {
+    "scheme_name_en": "Mission Indradhanush",
+    "scheme_name_hi": "मिशन इंद्रधनुष",
+    "scheme_name_hinglish": "Mission Indradhanush",
+    "keywords": ["indradhanush", "vaccination", "teekakaran", "children"],
+    "purpose_en": "A special vaccination drive for children and pregnant women against major diseases.",
+    "purpose_hi": "प्रमुख बीमारियों के खिलाफ बच्चों और गर्भवती महिलाओं के लिए एक विशेष टीकाकरण अभियान।",
+    "purpose_hinglish": "Bachon aur pregnant auraton ke liye teekakaran ka special abhiyan."
+  },
+  {
+    "scheme_name_en": "National Ayush Mission (NAM)",
+    "scheme_name_hi": "राष्ट्रीय आयुष मिशन",
+    "scheme_name_hinglish": "Rashtriya Ayush Mission",
+    "keywords": ["ayush", "ayurveda", "yoga", "unani", "siddha"],
+    "purpose_en": "Promotes traditional Indian medicine systems like Ayurveda, Yoga, Unani, Siddha, and Homeopathy.",
+    "purpose_hi": "आयुर्वेद, योग, यूनानी, सिद्धा और होम्योपैथी जैसी पारंपरिक भारतीय चिकित्सा प्रणालियों को बढ़ावा देता है।",
+    "purpose_hinglish": "Ayurveda, Yoga, aur doosre purane medical tarikon ko badhava deta hai."
+  },
+  {
+    "scheme_name_en": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "scheme_name_hi": "प्रधानमंत्री सुरक्षा बीमा योजना",
+    "scheme_name_hinglish": "Pradhan Mantri Suraksha Bima Yojana",
+    "keywords": ["pmsby", "insurance", "bima", "accident", "durghatna"],
+    "purpose_en": "Provides one-year accidental death and disability cover.",
+    "purpose_hi": "एक साल का आकस्मिक मृत्यु और विकलांगता कवर प्रदान करता है।",
+    "purpose_hinglish": "1 saal ka accident mein maut ya disability ka insurance cover deta hai."
+  },
+  {
+    "scheme_name_en": "Rashtriya Bal Swasthya Karyakram (RBSK)",
+    "scheme_name_hi": "राष्ट्रीय बाल स्वास्थ्य कार्यक्रम",
+    "scheme_name_hinglish": "Rashtriya Bal Swasthya Karyakram",
+    "keywords": ["rbsk", "children", "baal", "swasthya", "health check"],
+    "purpose_en": "A health screening program for children from birth to 18 years of age.",
+    "purpose_hi": "जन्म से 18 वर्ष की आयु तक के बच्चों के लिए एक स्वास्थ्य जांच कार्यक्रम।",
+    "purpose_hinglish": "Bachon ke liye health checkup ka programme, janm se 18 saal tak."
+  },
+  {
+    "scheme_name_en": "Janani Shishu Suraksha Karyakram (JSSK)",
+    "scheme_name_hi": "जननी शिशु सुरक्षा कार्यक्रम",
+    "scheme_name_hinglish": "Janani Shishu Suraksha Karyakram",
+    "keywords": ["jssk", "pregnant women", "shishu", "janani"],
+    "purpose_en": "Entitles all pregnant women to a free delivery, including C-sections, at public health institutions.",
+    "purpose_hi": "सभी गर्भवती महिलाओं को सार्वजनिक स्वास्थ्य संस्थानों में मुफ्त प्रसव का अधिकार देता है, जिसमें सिजेरियन भी शामिल है।",
+    "purpose_hinglish": "Sabhi pregnant mahilaon ko sarkari aspatalon mein muft delivery milti hai, jismein operation bhi shamil hai."
+  },
+  {
+    "scheme_name_en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "scheme_name_hi": "प्रधानमंत्री मातृ वंदना योजना",
+    "scheme_name_hinglish": "Pradhan Mantri Matru Vandana Yojana",
+    "keywords": ["pmmvy", "pregnant", "matru", "vandana"],
+    "purpose_en": "Provides cash incentives to pregnant women and lactating mothers for the first living child.",
+    "purpose_hi": "पहली संतान के लिए गर्भवती महिलाओं और स्तनपान कराने वाली माताओं को नकद प्रोत्साहन प्रदान करता है।",
+    "purpose_hinglish": "Pehli santan ke liye pregnant aur doodh pilane wali mothers ko paise milte hain."
+  },
+  {
+    "scheme_name_en": "Rashtriya Kishore Swasthya Karyakram (RKSK)",
+    "scheme_name_hi": "राष्ट्रीय किशोर स्वास्थ्य कार्यक्रम",
+    "scheme_name_hinglish": "Rashtriya Kishore Swasthya Karyakram",
+    "keywords": ["rksk", "adolescent", "kishore", "swasthya"],
+    "purpose_en": "A program focused on the health and development of adolescents aged 10-19.",
+    "purpose_hi": "10-19 वर्ष की आयु के किशोरों के स्वास्थ्य और विकास पर केंद्रित एक कार्यक्रम।",
+    "purpose_hinglish": "10 se 19 saal ke bachon aur jawanon ki health ka program."
+  }
+]

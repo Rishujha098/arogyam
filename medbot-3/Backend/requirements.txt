@@ -1,0 +1,32 @@
+# Core framework
+fastapi
+uvicorn
+
+# Database
+psycopg2-binary
+python-dotenv
+pgvector
+# Embeddings + Transformers
+torch
+transformers
+sentence-transformers
+sentencepiece
+sacremoses
+
+# LangChain + Groq
+langchain
+langchain-community
+langchain-groq
+groq
+google-generativeai
+
+# Utilities
+tqdm
+numpy
+scikit-learn
+scipy
+regex
+requests
+pydantic
+typing-extensions
+langdetect
