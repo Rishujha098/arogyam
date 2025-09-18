@@ -35,7 +35,7 @@ Deployment → Uvicorn + Docker
 
 ⚡ Getting Started
 1️⃣ Clone the repository
-git clone https://github.com/Rishujha098/arogyam-chatbot.git
+git clone https://github.com/Rishujha098/arogyam.git
 cd arogyam-chatbot
 
 2️⃣ Setup environment
